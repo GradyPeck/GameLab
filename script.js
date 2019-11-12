@@ -20,7 +20,6 @@ function begin() {
 }
 
 function play() {
-    grantHealth = 10;
     while (userHealth > 0 && wonRounds < 3) {
         userHealth -= Math.round(Math.random()) + 1;
         grantHealth -= Math.round(Math.random()) + 1;
